@@ -9,6 +9,7 @@ Preparing lesson material to teach data visualization.
 Books:
 - https://socviz.co
 - https://serialmentor.com/dataviz/
+- Data Visualisation: A Handbook for Data Driven Design, Andy Kirk
 
 Lessons:
 - https://carpentries-incubator.github.io/jupyter_maps/
