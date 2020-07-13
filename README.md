@@ -20,3 +20,6 @@ Lessons:
 
 Blogs:
 - https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/
+
+Papers:
+- https://doi.org/10.1371/journal.pcbi.1003833
