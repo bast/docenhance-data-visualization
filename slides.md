@@ -114,10 +114,35 @@ class: center, middle, inverse
 
 - More insight into data
 - Seeing patterns and seeing problems
-- Anscombe's quartett
+- Anscombe's quartet
 - Because others do it (and we often copy the style and culture)
 - Presentations
 - Communication with the public
+
+---
+
+## Anscombe's quartet
+
+.left-column[
+<img src="jupyter/quartet.png" alt="Anscombe's quartet" width="400px">
+
+.cite[https://en.wikipedia.org/wiki/Anscombe%27s_quartet]
+
+.cite[https://seaborn.pydata.org/examples/anscombes_quartet.html]
+]
+
+.right-column[
+All four plots have the .emph[same] mean of x and y, sample variance of *x* and
+*y*, correlation between *x* and *y*, linear regression line, and *R^2* coefficient.
+]
+
+---
+
+## Same Stats, Different Graphs
+
+<img src="img/samestats.gif" alt="gif cycling through different graphics with same stats" width="500px">
+
+.cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
 
 ---
 

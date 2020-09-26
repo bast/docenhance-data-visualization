@@ -37,12 +37,12 @@ li {
 }
 
 .left-column {
-  width: 50%;
+  width: 60%;
   float: left;
 }
 
 .right-column {
-  width: 50%;
+  width: 40%;
   float: right;
 }
 
