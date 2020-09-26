@@ -75,3 +75,42 @@ li {
   width: 30%;
   float: right;
 }
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  font-size: 14px;
+  color: #505050;
+}
+.footnote:before {
+  content: "[";
+}
+.footnote:after {
+  content: "]";
+}
+
+.emph {
+  background-color: #c8deff;
+}
+
+.remark {
+  color: #b0b0b0;
+  font-style: italic;
+}
+
+.quote {
+  color: #ff0000;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.cite {
+  font-size: 14px;
+  color: #505050;
+}
+.cite:before {
+  content: "[";
+}
+.cite:after {
+  content: "]";
+}
