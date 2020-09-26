@@ -18,7 +18,21 @@ Link to slides: ...
 
 ## Goals for this course
 
-- Set expectations for this course
+<!-- set expectations for this course -->
+
+### Our focus
+
+- Data visualization for .emph[academic publications and presentations]
+- Practical recommendations
+- .emph[Reproducibility]
+
+
+### What I will not focus on
+
+- Programming languages and tools
+  > .remark[But I will point to examples to get you on a good track]
+- Data visualization for the general public
+  > .remark[Very important but they often have different requirements]
 
 ---
 
