@@ -25,6 +25,7 @@ Link to slides: ...
 - Data visualization for .emph[academic publications and presentations]
 - .emph[Practical] recommendations
 - .emph[Reproducibility]
+- Know which tools exist
 
 
 ### What I will not focus on
