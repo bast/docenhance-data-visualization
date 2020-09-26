@@ -18,8 +18,18 @@ Lessons:
 - https://swcarpentry.github.io/visualization-novice/
 - https://www.ub.uio.no/english/courses-events/events/all-libraries/2020/research-bazaar/visualisation.html
 
+Presentations:
+- https://ajstewartlang.github.io/SIPS_2019/SIPS_presentation.html
+
 Blogs:
 - https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/
+- https://blog.datawrapper.de/beautifulcolors/
 
 Papers:
 - https://doi.org/10.1371/journal.pcbi.1003833
+
+Cheatsheets:
+- https://github.com/matplotlib/cheatsheets
+
+Other:
+- https://twitter.com/hashtag/TidyTuesday
