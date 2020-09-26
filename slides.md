@@ -81,7 +81,7 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 
 <br>
 
-<img src="img/twitter-reproducibility.png" width="500px">
+<img src="img/twitter-reproducibility.png" alt="twitter post" width="500px">
 
 .cite[https://twitter.com/kara_woo/status/1134878080567091200]
 
@@ -235,6 +235,16 @@ class: center, middle, inverse
 ---
 
 ## Tidy data
+
+<img src="img/svalbard-compact.png" alt="compact table" width="20%">
+
+<img src="img/svalbard-wide.png" alt="table wide format" width="50%">
+
+<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="50%">
+
+---
+
+<img src="img/svalbard-tidy.png" alt="table tidy format" width="50%">
 
 ---
 
