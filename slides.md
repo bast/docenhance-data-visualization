@@ -283,7 +283,7 @@ class: center, middle, inverse
 
 ---
 
-### Diverging color scales: visualize deviation of data values relative to a neutral midpoint
+## Diverging color scales: visualize deviation of data values relative to a neutral midpoint
 
 <img src="img/colors-divergent.png" alt="divergent color scale" height="70px">
 
