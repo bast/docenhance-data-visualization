@@ -311,6 +311,11 @@ class: center, middle, inverse
 
 ## Where to find good overviews
 
+- https://clauswilke.com/dataviz/directory-of-visualizations.html
+- https://datavizcatalogue.com/search.html
+- https://depictdatastudio.com/charts/
+- https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
+
 ---
 
 Taxonomy, examples, and main pitfall for each:
@@ -322,6 +327,8 @@ Taxonomy, examples, and main pitfall for each:
 - Trends
 - Geospatial data
 - Uncertainty
+
+<!-- https://www.autodeskresearch.com/publications/samestats fig 8 -->
 
 ---
 
