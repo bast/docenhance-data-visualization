@@ -4,3 +4,5 @@
 # data-visualization
 
 Preparing lesson material to teach data visualization.
+
+Slides: https://cicero.xyz/v3/remark/0.14.0/github.com/bast/data-visualization/master/slides.md/
