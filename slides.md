@@ -133,6 +133,8 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 
 <img src="img/samestats.gif" alt="gif cycling through different graphics with same stats" width="500px">
 
+.cite[[A. Cairo, "Datasaurus: Never trust summary statistics alone; always visualize your data"](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html)]
+
 .cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
 
 ---
