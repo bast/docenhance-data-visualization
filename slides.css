@@ -36,13 +36,23 @@ li {
   color: #e8daef;
 }
 
-.left-column {
+.left-column60 {
   width: 60%;
   float: left;
 }
 
-.right-column {
+.left-column50 {
+  width: 50%;
+  float: left;
+}
+
+.right-column40 {
   width: 40%;
+  float: right;
+}
+
+.right-column50 {
+  width: 50%;
   float: right;
 }
 

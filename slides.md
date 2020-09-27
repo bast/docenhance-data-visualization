@@ -114,7 +114,7 @@ class: center, middle, inverse
 
 ## Anscombe's quartet
 
-.left-column[
+.left-column60[
 <img src="jupyter/quartet.png" alt="Anscombe's quartet" width="400px">
 
 .cite[https://en.wikipedia.org/wiki/Anscombe%27s_quartet]
@@ -122,7 +122,7 @@ class: center, middle, inverse
 .cite[https://seaborn.pydata.org/examples/anscombes_quartet.html]
 ]
 
-.right-column[
+.right-column40[
 All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 *y*, correlation between *x* and *y*, linear regression line, and *R^2* coefficient.
 ]
@@ -230,6 +230,8 @@ class: center, middle, inverse
 <!-- - https://shiny.oxshef.io/tutorials.html -->
 <!-- - https://aaltoscicomp.github.io/python-for-scicomp/data-visualization/ -->
 
+<!-- image formats -->
+
 ---
 
 class: center, middle, inverse
@@ -268,7 +270,60 @@ class: center, middle, inverse
 
 ---
 
-## Problem example
+## What is the problem with storing data like this?
+
+<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="70%">
+
+<!-- this is a phantasy dataset, apologies to biology students/researchers - this is not my domain -->
+
+--
+
+- .emph[Format]: Limited interoperability with other programs
+- .emph[Error prone] (see e.g. [this famous example](https://www.washingtonpost.com/news/wonk/wp/2013/04/16/is-the-best-evidence-for-austerity-based-on-an-excel-spreadsheet-error/))
+- Difficult to parse ("understand") by scripts: .emph[difficult to automate]
+- Not in *tidy format* (more about this later): .emph[difficult to extend/modify]
+
+---
+
+## "Messy" data structure
+
+.left-column60[
+<img src="img/svalbard-compact.png" alt="compact table" width="40%">
+
+<img src="img/svalbard-wide.png" alt="table wide format" width="90%">
+
+<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="90%">
+]
+
+.right-column40[
+For the moment let us not focus on the tool, but the .emph[data structure]
+
+How can these 3 examples be problematic for .emph[automated data visualization]?
+
+- In the compact structure we need to divide at the comma
+- If we add more species or more observation sites, we need to adapt the visualization pipeline
+]
+
+---
+
+## Tidy data
+
+.left-column60[
+<img src="img/svalbard-tidy.png" alt="table tidy format" width="80%">
+]
+
+.right-column40[
+- Columns are variables
+- Rows are observations/measurements
+- "Long form"
+- Order does not matter
+- .emph[Easy to extend] with more species and more sites
+  without modifying the scripts
+- .emph[Structure for storing data] - this does not mean that this is ideal
+  for tables in presentations or publications
+
+.cite[[H. Wickham, "Tidy Data"](http://vita.had.co.nz/papers/tidy-data.pdf)]
+]
 
 ---
 
@@ -276,33 +331,65 @@ class: center, middle, inverse
 
 ---
 
-## Tidy data
-
-<img src="img/svalbard-compact.png" alt="compact table" width="20%">
-
-<img src="img/svalbard-wide.png" alt="table wide format" width="50%">
-
-<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="50%">
-
----
-
-<img src="img/svalbard-tidy.png" alt="table tidy format" width="50%">
-
----
-
 ## Data cleaning
+
+- inconsistent data
+- missing data
 
 ---
 
 ## Folder organization
 
+.left-column50[
+This is only a suggestion:
+```
+my-project/
+├── README.md
+├── data/
+│   ├── README.md
+│   ├── LICENSE
+│   ├── my-data.csv
+│   └── another-data.csv
+├── manuscript/
+│   └── paper.tex
+└── figures/
+    ├── LICENSE
+    ├── my-notebook.ipynb
+    └── another-notebook.Rmd
+```
+]
+
+.right-column50[
+- There is not the one right way
+- Organize them to be understandable and reproducible
+  by others and your .emph[future you]
+- .emph[Lottery factor]: If you win the lottery and leave academic research today,
+  make sure your research group can still find and understand it
+- Add .emph[license files]: make data and script reusable by others
+]
+
 ---
 
 ## Where to store it
 
----
+- Store visualization script/notebook and data in a repository under .emph[version control]
+  (e.g. on [GitHub](https://github.com/))
+- .emph[Stora data close to the visualization pipeline] (ideally same repository)
+- Unless it is too large
+- Archive with a persistent identifier: get a .emph[digital object identifier (DOI)] on services like
+  [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/)
 
-## Data privacy for sensitive data
+
+### How about too big data?
+
+- Reference the DOI of the data
+- Consider providing a smaller example data set
+
+
+### How about sensitive data?
+
+- There are storage options for sensitive data (e.g. patient data) but this is outside the scope
+- Consider providing a "mock" example data set
 
 ---
 
