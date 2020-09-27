@@ -376,13 +376,14 @@ seal,C,2
 
 ## Data cleaning
 
-- Often we want to visualize inconsistent data sets with missing entries:
+- Often we want to visualize data sets with inconsistent or missing entries:
 
 ```csv
 Date,Organization,Number of participants
 2020-09-27,UiT,20
 Oct 10 2020,UiT Norges arktiske universitet,15
 "Nov. 11, 2020",UiT The Arctic University of Norway,40
+2020-12-12,UiT The Arctic University of Norway,-
 ```
 
 Data cleaning is a bit outside the scope of this course but still good to know:
