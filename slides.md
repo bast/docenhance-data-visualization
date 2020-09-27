@@ -429,8 +429,7 @@ my-project/
 
 - Store visualization script/notebook and data in a repository under .emph[version control]
   (e.g. on [GitHub](https://github.com/))
-- .emph[Stora data close to the visualization pipeline] (ideally same repository)
-- Unless it is too large
+- .emph[Stora data close to the visualization pipeline] (same repository, even if it requires extra storage)
 - Archive with a persistent identifier: get a .emph[digital object identifier (DOI)] on services like
   [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/)
 
@@ -438,7 +437,7 @@ my-project/
 ### How about too big data?
 
 - Reference the DOI of the data
-- Consider providing a smaller example data set
+- Consider providing a smaller example data set needed to reproduce plots
 
 
 ### How about sensitive data?
