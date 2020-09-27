@@ -37,6 +37,15 @@ Link to slides: ...
 
 ---
 
+## Overview
+
+<!-- mention which sections will be there and how long each -->
+
+### Why visualizing data? (5 min)
+### Data formats (10 min)
+
+---
+
 ## Resources
 
 ### Books
@@ -329,12 +338,57 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 
 ## Standard data formats
 
+.left-column50[
+### Comma-saparated values (CSV)
+
+```csv
+Species,Observation site,Number of sightings
+arctic fox,A,3
+arctic fox,B,1
+walrus,B,1
+walrus,C,1
+reindeer,B,10
+reindeer,C,1
+polar bear,A,1
+polar bear,C,1
+seal,A,2
+seal,B,1
+seal,C,2
+```
+
+- CSV is often a good choice
+- Most visualization tools can read CSV data
+]
+
+.right-column50[
+### There are many more formats
+
+- [JSON](https://en.wikipedia.org/wiki/JSON)
+- [GeoJSON](https://geojson.org/)
+- [NPY (NumPy arrays)](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html)
+- [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- Many domain-specific formats (such as [NetCDF](https://www.unidata.ucar.edu/software/netcdf/))
+- .emph[Use standard formats, don't invent your own]
+]
+
 ---
 
 ## Data cleaning
 
-- inconsistent data
-- missing data
+- Often we want to visualize inconsistent data sets with missing entries:
+
+```csv
+Date,Organization,Number of participants
+2020-09-27,UiT,20
+Oct 10 2020,UiT Norges arktiske universitet,15
+"Nov. 11, 2020",UiT The Arctic University of Norway,40
+```
+
+Data cleaning is a bit outside the scope of this course but still good to know:
+- There are tools to clean and merge inconsistent data sets
+  (e.g. [OpenRefine](https://openrefine.org/))
+- This does not have to be done manually
 
 ---
 
