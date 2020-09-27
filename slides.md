@@ -189,11 +189,115 @@ class: center, middle, inverse
 - Coordinates
 - Proportional ink
 - Channels
-- Colors
+
+---
+
+## Colors
+
+### Great resources
+
+- https://clauswilke.com/dataviz/color-pitfalls.html
+- https://blog.datawrapper.de/beautifulcolors/
+- [Okabe, M., and K. Ito. 2008. "Color Universal Design (CUD): How to Make Figures and Presentations That Are Friendly to Colorblind People."](https://jfly.uni-koeln.de/color/)
+- https://seaborn.pydata.org/tutorial/color_palettes.html
+- https://colorbrewer2.org/
+
+---
+
+## Colors
+
+### Fundamental use cases
+
+- Distinguish groups of data
+- Represent data values
+- Highlight
+
+.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
+
+
+### This is how most of us start but this is problematic:
+
+.quote["We need five colors for the plot: red ... green ... blue ... orange ... ... ... purple?"]
+
+---
+
+## Colors
+
+### Consider color vision deficiencies (CVD)
+
+- 4% of the population is affected
+- View your color figures under CVD simulations
+- Use color scales designed to be CVD-friendly
+
+<img src="img/ishihara.png" alt="ishihara color test plate" width="40%">
+
+---
+
+## Color scales: 3 types
+
+- .emph[Discrete/qualitative] color scales: designed to distinguish
+
+<img src="img/colors-okabe-ito.png" alt="okabe ito color scale" height="70px">
+
+.cite[[Okabe, M., and K. Ito. 2008. "Color Universal Design (CUD): How to Make Figures and Presentations That Are Friendly to Colorblind People."](https://jfly.uni-koeln.de/color/)]
+
+- .emph[Sequential/continuous] color scales: represent data values
+
+<img src="img/colors-blues.png" alt="blues color scale" height="70px">
+<img src="img/colors-rocket.png" alt="rocket color scale" height="70px">
+
+- .emph[Diverging] color scales: visualize deviation of data values relative to a neutral midpoint
+.cite[ColorBrewer pink to yellow-green]
+
+<img src="img/colors-divergent.png" alt="divergent color scale" height="70px">
+
+---
+
+## Discrete/qualitative color scales: designed to distinguish
+
+<img src="img/colors-okabe-ito.png" alt="okabe ito color scale" height="70px">
+
+- Great for scatter-plots:
+
+<img src="jupyter/colors-scatter.png" alt="scatter plot" width="45%">
+
+- What if you need more than 8 colors? Use direct labeling instead.
+
+.cite[[Okabe, M., and K. Ito. 2008](https://jfly.uni-koeln.de/color/)]
+.cite[<https://seaborn.pydata.org/examples/multiple_regression.html>]
+
+---
+
+## Sequential/continuous color scales: represent data values
+
+<img src="img/colors-blues.png" alt="blues color scale" height="70px">
+<img src="img/colors-rocket.png" alt="rocket color scale" height="70px">
+
+- Great for choropleth plots:
+
+<img src="jupyter/colors-choropleth.png" alt="choropleth plot" width="60%">
+
+- Color vision deficiencies less of a concern for this type
+
+.cite[<https://altair-viz.github.io/gallery/choropleth.html>]
+
+---
+
+### Diverging color scales: visualize deviation of data values relative to a neutral midpoint
+
+<img src="img/colors-divergent.png" alt="divergent color scale" height="70px">
+
+- Great for heatmaps:
+
+<img src="jupyter/colors-divergent.png" alt="heatmap plot" width="50%">
+
+.cite[ColorBrewer pink to yellow-green]
+.cite[<https://seaborn.pydata.org/examples/many_pairwise_correlations.html>]
+
+---
+
 - Sketch, try, refine later
 - Other pitfalls
-
-<!-- - https://blog.datawrapper.de/beautifulcolors/ -->
 
 ---
 
