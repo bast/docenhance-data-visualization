@@ -315,6 +315,7 @@ class: center, middle, inverse
 - https://datavizcatalogue.com/search.html
 - https://depictdatastudio.com/charts/
 - https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
+- https://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 
 ---
 
