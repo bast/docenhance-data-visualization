@@ -25,7 +25,7 @@ Link to slides: ...
 - Data visualization for .emph[academic publications and presentations]
 - .emph[Practical] recommendations
 - .emph[Reproducibility]
-- Know which tools exist
+- Know which tools exist -> .emph[good starting points]
 
 
 ### What I will not focus on
@@ -41,8 +41,13 @@ Link to slides: ...
 
 <!-- mention which sections will be there and how long each -->
 
-### Why visualizing data? (5 min)
-### Data formats (10 min)
+### - Why visualizing data? (5 min)
+### - Figure design, design process, and fundamentals (10 min)
+### - Taxonomy of visualizations (10 min)
+### - Choosing the right tools (10 min)
+### - Reproducible and reusable plots (10 min)
+### - Data formats (10 min)
+### - Figures and tables in reports and publications (5 min)
 
 ---
 
@@ -315,7 +320,7 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 
 ---
 
-## Tidy data
+## "Tidy data"
 
 .left-column60[
 <img src="img/svalbard-tidy.png" alt="table tidy format" width="80%">
