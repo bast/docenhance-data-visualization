@@ -273,7 +273,7 @@ class: center, middle, inverse
 <img src="img/colors-blues.png" alt="blues color scale" height="70px">
 <img src="img/colors-rocket.png" alt="rocket color scale" height="70px">
 
-- Great for choropleth plots:
+- Great for choropleth plots (here plotting unemployment rate):
 
 <img src="jupyter/colors-choropleth.png" alt="choropleth plot" width="60%">
 
