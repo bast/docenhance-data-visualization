@@ -112,15 +112,6 @@ class: center, middle, inverse
 
 ---
 
-- More insight into data
-- Seeing patterns and seeing problems
-- Anscombe's quartet
-- Because others do it (and we often copy the style and culture)
-- Presentations
-- Communication with the public
-
----
-
 ## Anscombe's quartet
 
 .left-column[
@@ -143,6 +134,30 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 <img src="img/samestats.gif" alt="gif cycling through different graphics with same stats" width="500px">
 
 .cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
+
+---
+
+## Why visualizing data?
+
+
+### More insight into data: easier to see patterns and problems
+
+.quote["... make both calculations and graphs. Both sorts of output should be
+studied; each will contribute to understanding."]
+.cite[F. J. Anscombe, 1973]
+
+
+### Communicating insight
+
+- Presentations
+- Communication with the public
+
+> .remark[reflect on how important and powerful data visualization is in particular in 2020: COVID-19, politics, ...]
+
+
+### Because others do it or tell us to
+
+- And we often copy the style and culture
 
 ---
 
