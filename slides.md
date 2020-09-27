@@ -165,10 +165,10 @@ studied; each will contribute to understanding."]
 
 ### Communicating insight
 
-- Presentations
+- Presentations/papers: facilitate understanding
 - Communication with the public
 
-> .remark[reflect on how important and powerful data visualization is in particular in 2020: COVID-19, politics, ...]
+> .remark[reflect on how important and powerful data visualization is in particular in 2020: COVID-19, politics, climate change, ...]
 
 
 ### Because others do it or tell us to
