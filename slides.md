@@ -341,11 +341,53 @@ class: center, middle, inverse
 
 ---
 
-- Many tools exist and there is not the one right choice
-- Why free software
-- Why scriptable software (batch processing and reproducibility; more about that in next section)
-- Reproducibility and FAIR
-- Why automating and working in plain text
+## Choosing the right tools: scriptable
+
+### There is not the one perfect language and not the one perfect library for everything
+
+- You will have to choose what fits best you and your group
+- We will show examples using .emph[Python, R, and JavaScript]
+
+### No manual post-processing
+
+- This will bite you when you need to regenerate
+  50 figures one day before submission deadline or regenerate a set of figures
+  after the person who created them left the group.
+- Use software that can be scripted: (batch processing and reproducibility; more about that in next section)
+
+---
+
+## Choosing the right tools: free
+
+### Use free software and free tools
+
+- Even if the university pays for a license, what happens after you leave university
+  or after they stop paying? How can other groups build on your work?
+- .emph[Python and R are free], and popular for "notebook"-based pipelines, but also a number
+  .emph[JavaScript frameworks] exist, especially for maps.
+- Plain text files and standard formats instead of proprietary formats.
+
+### For any academic discipline it will be a good investment to learn a bit of Python or R if you want to do data visualization
+
+---
+
+## Reproducibility and FAIR principles
+
+<!-- turingway image in here -->
+
+---
+
+- Within Python, many libraries exist:
+  [Matplotlib](https://matplotlib.org/),
+  [Seaborn](https://seaborn.pydata.org/),
+  [Altair](https://altair-viz.github.io/),
+  [Plotly](https://plotly.com/python/),
+  [Bokeh](https://bokeh.org/),
+  [ggplot](https://yhat.github.io/ggpy/),
+  [PyNGL](https://www.pyngl.ucar.edu/),
+  and many others.
+- Two main families of libraries: procedural (e.g. Matplotlib) and declarative
+  (using grammar of graphics).
 
 <!-- Cheatsheets: -->
 <!-- - https://github.com/matplotlib/cheatsheets -->
