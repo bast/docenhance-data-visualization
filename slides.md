@@ -44,7 +44,7 @@ Link to slides: ...
 ### - Why visualizing data? (5 min)
 ### - Figure design, design process, and fundamentals (10 min)
 ### - Taxonomy of visualizations (10 min)
-### - Choosing the right tools (10 min)
+### - Choosing the right tools (5 min)
 ### - Reproducible and reusable plots (10 min)
 ### - Data formats (10 min)
 ### - Figures and tables in reports and publications (5 min)
@@ -337,7 +337,7 @@ class: center, middle, inverse
 
 # Choosing the right tools
 
-<!-- 10 min -->
+<!-- 5 min -->
 
 ---
 
