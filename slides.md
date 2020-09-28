@@ -371,12 +371,6 @@ class: center, middle, inverse
 
 ---
 
-## Reproducibility and FAIR principles
-
-<!-- turingway image in here -->
-
----
-
 - Within Python, many libraries exist:
   [Matplotlib](https://matplotlib.org/),
   [Seaborn](https://seaborn.pydata.org/),
@@ -389,17 +383,6 @@ class: center, middle, inverse
 - Two main families of libraries: procedural (e.g. Matplotlib) and declarative
   (using grammar of graphics).
 
-<!-- Cheatsheets: -->
-<!-- - https://github.com/matplotlib/cheatsheets -->
-
-<!-- - https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/ -->
-
-<!-- - https://rstudio.github.io/shiny/tutorial/ -->
-<!-- - https://shiny.oxshef.io/tutorials.html -->
-<!-- - https://aaltoscicomp.github.io/python-for-scicomp/data-visualization/ -->
-
-<!-- image formats -->
-
 ---
 
 class: center, middle, inverse
@@ -410,11 +393,9 @@ class: center, middle, inverse
 
 ---
 
-- Many tools exist and there is not the one right choice
-- Why free software
-- Why scriptable software (batch processing and reproducibility; more about that in next section)
-- Reproducibility and FAIR
-- Why automating and working in plain text
+## Reproducibility and FAIR principles
+
+<!-- turingway image in here -->
 
 ---
 
@@ -427,6 +408,17 @@ class: center, middle, inverse
 - Demo with links to working recipes:
   - Binder
   - Zenodo
+
+<!-- Cheatsheets: -->
+<!-- - https://github.com/matplotlib/cheatsheets -->
+
+<!-- - https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/ -->
+
+<!-- - https://rstudio.github.io/shiny/tutorial/ -->
+<!-- - https://shiny.oxshef.io/tutorials.html -->
+<!-- - https://aaltoscicomp.github.io/python-for-scicomp/data-visualization/ -->
+
+<!-- image formats -->
 
 ---
 
