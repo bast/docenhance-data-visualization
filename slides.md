@@ -488,17 +488,36 @@ class: center, middle, inverse
 
 ---
 
-- Within Python, many libraries exist:
-  [Matplotlib](https://matplotlib.org/),
-  [Seaborn](https://seaborn.pydata.org/),
-  [Altair](https://altair-viz.github.io/),
-  [Plotly](https://plotly.com/python/),
-  [Bokeh](https://bokeh.org/),
-  [ggplot](https://yhat.github.io/ggpy/),
-  [PyNGL](https://www.pyngl.ucar.edu/),
-  and many others.
-- Two main families of libraries: procedural (e.g. Matplotlib) and declarative
-  (using grammar of graphics).
+## Visualization libraries (incomplete lits)
+
+Two main families of libraries: procedural (e.g. Matplotlib) and declarative
+(using grammar of graphics).
+
+.left-column50[
+### Python
+
+- [Matplotlib](https://matplotlib.org/gallery.html): MATLAB users will be at home
+- [Seaborn](https://seaborn.pydata.org/examples/index.html): statistical functions built in
+- [Altair](https://altair-viz.github.io/gallery/index.html): declarative visualization (R users
+  will be more at home), statistics built in
+- [Plotly](https://plotly.com/python/): interactive graphs
+- [Bokeh](https://demo.bokeh.org/): also here good for interactivity
+- [ggplot](https://yhat.github.io/ggpy/): R users will be more at home
+- [PyNGL](https://www.pyngl.ucar.edu/Examples/gallery.shtml): used in the weather forecast community
+- [K3D](https://k3d-jupyter.org/showcase/): Jupyter notebook extension for 3D visualization
+]
+
+.right-column50[
+### R
+
+- [ggplot2](https://ggplot2.tidyverse.org/): system for declaratively creating graphics, based on the grammar of graphics
+- [Shiny](https://shiny.rstudio.com/): interactive graphs and notebooks
+
+
+### JavaScript
+
+- [Data-Driven Documents](https://d3js.org/)
+]
 
 ---
 
