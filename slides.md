@@ -12,10 +12,6 @@ Link to slides: ...
 
 <!-- intro slides: 5 min -->
 
-## About me
-
----
-
 ## Goals for this course
 
 <!-- set expectations for this course -->
@@ -95,7 +91,7 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 
 <br>
 
-<img src="img/twitter-reproducibility.png" alt="twitter post" width="500px">
+<img src="img/twitter-reproducibility.png" alt="twitter post" width="70%">
 
 .cite[https://twitter.com/kara_woo/status/1134878080567091200]
 
@@ -129,23 +125,23 @@ class: center, middle, inverse
 ## Anscombe's quartet
 
 .left-column60[
-<img src="jupyter/quartet.png" alt="Anscombe's quartet" width="400px">
+<img src="jupyter/quartet.png" alt="Anscombe's quartet" width="80%">
+]
+
+.right-column40[
+All four plots have the .emph[same] mean of x and y, sample variance of *x* and
+*y*, correlation between *x* and *y*, linear regression line, and *R^2* coefficient.
 
 .cite[https://en.wikipedia.org/wiki/Anscombe%27s_quartet]
 
 .cite[https://seaborn.pydata.org/examples/anscombes_quartet.html]
 ]
 
-.right-column40[
-All four plots have the .emph[same] mean of x and y, sample variance of *x* and
-*y*, correlation between *x* and *y*, linear regression line, and *R^2* coefficient.
-]
-
 ---
 
 ## Same Stats, Different Graphs
 
-<img src="img/samestats.gif" alt="gif cycling through different graphics with same stats" width="80%">
+<img src="img/samestats.gif" alt="gif cycling through different graphics with same stats" width="100%">
 
 .cite[[A. Cairo, "Datasaurus: Never trust summary statistics alone; always visualize your data"](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html)]
 
@@ -217,7 +213,7 @@ class: center, middle, inverse
 
 ### This is how most of us start but this is problematic:
 
-.quote["We need five colors for the plot: red ... green ... blue ... orange ... ... ... purple?"]
+.quote["We need five colors for the plot: black ... red ... green ... blue ... ... ... orange?"]
 
 ---
 
@@ -225,11 +221,15 @@ class: center, middle, inverse
 
 ### Consider color vision deficiencies (CVD)
 
+.left-column50[
+<img src="img/ishihara.png" alt="ishihara color test plate" width="80%">
+]
+
+.right-column50[
 - 4% of the population is affected
 - View your color figures under CVD simulations
 - Use color scales designed to be CVD-friendly
-
-<img src="img/ishihara.png" alt="ishihara color test plate" width="40%">
+]
 
 ---
 
@@ -255,44 +255,58 @@ class: center, middle, inverse
 
 ## Discrete/qualitative color scales: designed to distinguish
 
+.left-column50[
 <img src="img/colors-okabe-ito.png" alt="okabe ito color scale" height="70px">
 
-- Great for scatter-plots:
-
-<img src="jupyter/colors-scatter.png" alt="scatter plot" width="45%">
+- Great for scatter-plots.
 
 - What if you need more than 8 colors? Use direct labeling instead.
 
 .cite[[Okabe, M., and K. Ito. 2008](https://jfly.uni-koeln.de/color/)]
+]
+
+.right-column50[
+<img src="jupyter/colors-scatter.png" alt="scatter plot" width="100%">
+
 .cite[<https://seaborn.pydata.org/examples/multiple_regression.html>]
+]
 
 ---
 
 ## Sequential/continuous color scales: represent data values
 
+.left-column50[
 <img src="img/colors-blues.png" alt="blues color scale" height="70px">
 <img src="img/colors-rocket.png" alt="rocket color scale" height="70px">
 
-- Great for choropleth plots (here plotting unemployment rate):
+- Great for choropleth plots (here plotting unemployment rate).
 
-<img src="jupyter/colors-choropleth.png" alt="choropleth plot" width="60%">
+- Color vision deficiencies less of a concern for this type.
+]
 
-- Color vision deficiencies less of a concern for this type
+.right-column50[
+<img src="jupyter/colors-choropleth.png" alt="choropleth plot" width="100%">
 
 .cite[<https://altair-viz.github.io/gallery/choropleth.html>]
+]
 
 ---
 
 ## Diverging color scales: visualize deviation of data values relative to a neutral midpoint
 
+.left-column50[
 <img src="img/colors-divergent.png" alt="divergent color scale" height="70px">
 
-- Great for heatmaps:
-
-<img src="jupyter/colors-divergent.png" alt="heatmap plot" width="50%">
+- Great for heatmaps.
 
 .cite[ColorBrewer pink to yellow-green]
+]
+
+.right-column50[
+<img src="jupyter/colors-divergent.png" alt="heatmap plot" width="100%">
+
 .cite[<https://seaborn.pydata.org/examples/many_pairwise_correlations.html>]
+]
 
 ---
 
@@ -432,7 +446,7 @@ class: center, middle, inverse
 
 ## What is the problem with storing data like this?
 
-<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="70%">
+<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
 
 <!-- this is a phantasy dataset, apologies to biology students/researchers - this is not my domain -->
 
@@ -447,15 +461,15 @@ class: center, middle, inverse
 
 ## "Messy" data structure
 
-.left-column60[
-<img src="img/svalbard-compact.png" alt="compact table" width="40%">
+.left-column50[
+<img src="img/svalbard-compact.png" alt="compact table" width="30%">
 
-<img src="img/svalbard-wide.png" alt="table wide format" width="90%">
+<img src="img/svalbard-wide.png" alt="table wide format" width="70%">
 
-<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="90%">
+<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="70%">
 ]
 
-.right-column40[
+.right-column50[
 For the moment let us not focus on the tool, but the .emph[data structure]
 
 How can these 3 examples be problematic for .emph[automated data visualization]?
@@ -468,11 +482,11 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 
 ## "Tidy data"
 
-.left-column60[
-<img src="img/svalbard-tidy.png" alt="table tidy format" width="80%">
+.left-column50[
+<img src="img/svalbard-tidy.png" alt="table tidy format" width="70%">
 ]
 
-.right-column40[
+.right-column50[
 - Columns are variables
 - Rows are observations/measurements
 - "Long form"
