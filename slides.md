@@ -125,7 +125,7 @@ class: center, middle, inverse
 ## Anscombe's quartet
 
 .left-column60[
-<img src="jupyter/quartet.png" alt="Anscombe's quartet" width="80%">
+<img src="jupyter/quartet/quartet.png" alt="Anscombe's quartet" width="80%">
 ]
 
 .right-column40[
@@ -266,7 +266,7 @@ class: center, middle, inverse
 ]
 
 .right-column50[
-<img src="jupyter/colors-scatter.png" alt="scatter plot" width="100%">
+<img src="jupyter/colors/colors-scatter.png" alt="scatter plot" width="100%">
 
 .cite[<https://seaborn.pydata.org/examples/multiple_regression.html>]
 ]
@@ -285,7 +285,7 @@ class: center, middle, inverse
 ]
 
 .right-column50[
-<img src="jupyter/colors-choropleth.png" alt="choropleth plot" width="100%">
+<img src="jupyter/colors/colors-choropleth.png" alt="choropleth plot" width="100%">
 
 .cite[<https://altair-viz.github.io/gallery/choropleth.html>]
 ]
@@ -303,7 +303,7 @@ class: center, middle, inverse
 ]
 
 .right-column50[
-<img src="jupyter/colors-divergent.png" alt="heatmap plot" width="100%">
+<img src="jupyter/colors/colors-divergent.png" alt="heatmap plot" width="100%">
 
 .cite[<https://seaborn.pydata.org/examples/many_pairwise_correlations.html>]
 ]
