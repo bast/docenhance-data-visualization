@@ -323,7 +323,26 @@ class: center, middle, inverse
 
 ---
 
+## Taxonomy of visualizations
+
+We will show .emph[typical examples] and discuss .emph[main pitfalls] for each:
+
+- x-y relationships
+- Amounts
+- Distributions
+- Proportions
+- Time series
+- Trends
+- Geospatial data
+- Uncertainty
+
+.cite[Categorization following https://clauswilke.com/dataviz/directory-of-visualizations.html]
+
+---
+
 ## Where to find good overviews
+
+These can offer other categorizations:
 
 - https://clauswilke.com/dataviz/directory-of-visualizations.html
 - https://datavizcatalogue.com/search.html
@@ -332,16 +351,6 @@ class: center, middle, inverse
 - https://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 
 ---
-
-Taxonomy, examples, and main pitfall for each:
-- Amounts
-- Distributions
-- Proportions
-- x-y relationships
-- Time series
-- Trends
-- Geospatial data
-- Uncertainty
 
 <!-- https://www.autodeskresearch.com/publications/samestats fig 8 -->
 
