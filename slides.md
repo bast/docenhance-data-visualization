@@ -352,6 +352,100 @@ These can offer other categorizations:
 
 ---
 
+## x-y relationships (1/3)
+
+.left-column50[
+### Line graph
+
+<img src="jupyter/taxonomy/x-y-relationships/lineplot.png" width="90%">
+.cite[https://seaborn.pydata.org/examples/wide_data_lineplot.html]
+]
+
+.right-column50[
+### Scatterplot
+
+<img src="jupyter/taxonomy/x-y-relationships/scatter.png" width="90%">
+.cite[https://seaborn.pydata.org/examples/multiple_regression.html]
+]
+
+---
+
+## x-y relationships (2/3)
+
+.left-column50[
+### Bubble plot
+
+<img src="jupyter/taxonomy/x-y-relationships/bubbles.png" width="90%">
+.cite[https://seaborn.pydata.org/examples/scatter_bubbles.html]
+]
+
+.right-column50[
+### Pitfalls
+
+- Overplotting
+- Too many colors
+]
+
+---
+
+## x-y relationships (3/3)
+
+.left-column50[
+### Bins
+
+<img src="jupyter/taxonomy/x-y-relationships/bins.png" width="80%">
+.cite[https://seaborn.pydata.org/examples/hexbin_marginals.html]
+]
+
+.right-column50[
+### Contours
+
+<img src="jupyter/taxonomy/x-y-relationships/contours.png" width="80%">
+.cite[https://seaborn.pydata.org/examples/multiple_bivariate_kde.html]
+]
+
+---
+
+## Amounts
+
+Examples here ...
+
+---
+
+## Distributions
+
+Examples here ...
+
+---
+
+## Proportions
+
+Examples here ...
+
+---
+
+## Time series
+
+Examples here ...
+
+---
+
+## Trends
+
+Examples here ...
+
+---
+
+## Geospatial data
+
+Examples here ...
+
+---
+
+## Uncertainty
+
+Examples here ...
+
 <!-- https://www.autodeskresearch.com/publications/samestats fig 8 -->
 
 ---
