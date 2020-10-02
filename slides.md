@@ -450,9 +450,59 @@ These can offer other categorizations:
 
 ---
 
-## Distributions
+## Distributions (1/4)
 
-Examples here ...
+.left-column50[
+### (Faceted) histogram
+
+<img src="jupyter/taxonomy/distributions/histogram.png" width="90%">
+
+.cite[https://seaborn.pydata.org/examples/faceted_histogram.html]
+]
+
+.right-column50[
+### Layered histogram
+
+<img src="jupyter/taxonomy/distributions/layered-histogram.png" width="90%">
+
+.cite[https://altair-viz.github.io/gallery/layered_histogram.html]
+]
+
+---
+
+## Distributions (2/4)
+
+.left-column50[
+### Stacked histogram
+
+<img src="jupyter/taxonomy/distributions/stacked-histogram.png" width="90%">
+]
+
+.right-column50[
+### Density plot
+
+<img src="jupyter/taxonomy/distributions/density-plot.png" width="90%">
+]
+
+---
+
+## Distributions (3/4)
+
+### Ridgeline plot
+
+<img src="jupyter/taxonomy/distributions/ridgeline.png" width="60%">
+
+.cite[https://altair-viz.github.io/gallery/ridgeline_plot.html]
+
+---
+
+## Distributions (4/4)
+
+### Strip-plot vs box-plot vs violin-plot
+
+<img src="img/boxplot-problem.gif" width="100%">
+
+.cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
 
 ---
 
