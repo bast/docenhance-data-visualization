@@ -406,9 +406,47 @@ These can offer other categorizations:
 
 ---
 
-## Amounts
+## Amounts (1/2)
 
-Examples here ...
+.left-column50[
+### Bars
+
+<img src="jupyter/taxonomy/amounts/bars.png" width="40%">
+
+- Mind the principle of .emph[proportional ink]
+
+.cite[https://altair-viz.github.io/gallery/simple_bar_chart.html]
+]
+
+.right-column50[
+### Grouped bars
+
+<img src="jupyter/taxonomy/amounts/grouped-bars.png" width="80%">
+
+.cite[https://altair-viz.github.io/gallery/grouped_bar_chart.html]
+]
+
+---
+
+## Amounts (2/2)
+
+.left-column60[
+### Stacked bars
+
+<img src="jupyter/taxonomy/amounts/stacked-bars.png" width="90%">
+
+- Only the yellow portion is easy to compare
+
+.cite[https://altair-viz.github.io/gallery/horizontal_stacked_bar_chart.html]
+]
+
+.right-column40[
+### Heatmap
+
+<img src="jupyter/taxonomy/amounts/heatmap.png" width="80%">
+
+.cite[https://altair-viz.github.io/gallery/simple_heatmap.html]
+]
 
 ---
 
