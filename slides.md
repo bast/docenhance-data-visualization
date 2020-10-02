@@ -331,10 +331,8 @@ We will show .emph[typical examples] and discuss .emph[main pitfalls] for each:
 - Amounts
 - Distributions
 - Proportions
-- Time series
-- Trends
 - Geospatial data
-- Uncertainty
+- Trends and uncertainty
 
 .cite[Categorization following https://clauswilke.com/dataviz/directory-of-visualizations.html]
 
@@ -506,21 +504,43 @@ These can offer other categorizations:
 
 ---
 
-## Proportions
+## Proportions (1/2)
 
-Examples here ...
+.left-column50[
+### Pie chart
+
+<img src="jupyter/taxonomy/proportions/pie.png" width="90%">
+
+.cite[https://matplotlib.org/3.1.1/gallery/pie_and_polar_charts/pie_features.html]
+]
+
+.right-column50[
+### Stacked bar chart
+
+<img src="jupyter/taxonomy/proportions/stacked-bars.png" width="110%">
+
+.cite[https://altair-viz.github.io/gallery/normalized_stacked_bar_chart.html]
+]
 
 ---
 
-## Time series
+## Proportions (2/2)
 
-Examples here ...
+.left-column50[
+### Stacked areas/densities
 
----
+<img src="jupyter/taxonomy/proportions/stacked-areas.png" width="90%">
 
-## Trends
+.cite[https://altair-viz.github.io/gallery/normalized_stacked_area_chart.html]
+]
 
-Examples here ...
+.right-column50[
+### Treemap
+
+<img src="img/treemap.png" width="60%">
+
+.cite[CC-BY-SA Ali Zifan https://en.wikipedia.org/wiki/Treemapping]
+]
 
 ---
 
@@ -530,7 +550,7 @@ Examples here ...
 
 ---
 
-## Uncertainty
+## Trends and uncertainty
 
 Examples here ...
 
