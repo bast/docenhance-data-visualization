@@ -391,14 +391,14 @@ These can offer other categorizations:
 .left-column50[
 ### Bins
 
-<img src="jupyter/taxonomy/x-y-relationships/bins.png" width="80%">
+<img src="jupyter/taxonomy/x-y-relationships/bins.png" width="70%">
 .cite[https://seaborn.pydata.org/examples/hexbin_marginals.html]
 ]
 
 .right-column50[
 ### Contours
 
-<img src="jupyter/taxonomy/x-y-relationships/contours.png" width="80%">
+<img src="jupyter/taxonomy/x-y-relationships/contours.png" width="70%">
 .cite[https://seaborn.pydata.org/examples/multiple_bivariate_kde.html]
 ]
 
@@ -564,11 +564,45 @@ These can offer other categorizations:
 
 ---
 
-## Trends and uncertainty
+## Trends and uncertainty (1/2)
 
-Examples here ...
+.left-column50[
+### Smoothing models
 
-<!-- https://www.autodeskresearch.com/publications/samestats fig 8 -->
+<img src="jupyter/taxonomy/trends-uncertainty/loess.png" width="90%">
+
+- Polynomial fits, splines, LOESS, ...
+
+.cite[https://altair-viz.github.io/gallery/scatter_with_loess.html]
+]
+
+.right-column50[
+### Confidence bands
+
+<img src="jupyter/taxonomy/trends-uncertainty/band.png" width="90%">
+
+.cite[https://altair-viz.github.io/gallery/line_with_ci.html]
+]
+
+---
+
+## Trends and uncertainty (2/2)
+
+.left-column50[
+### Boxplots
+
+<img src="jupyter/taxonomy/trends-uncertainty/boxes.png" width="90%">
+
+.cite[https://seaborn.pydata.org/examples/grouped_boxplot.html]
+]
+
+.right-column50[
+### Error bars
+
+<img src="jupyter/taxonomy/trends-uncertainty/error-bars.png" width="100%">
+
+.cite[https://seaborn.pydata.org/examples/pointplot_anova.html]
+]
 
 ---
 
