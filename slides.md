@@ -544,9 +544,23 @@ These can offer other categorizations:
 
 ---
 
-## Geospatial data
+## Geospatial data (1/2)
 
-Examples here ...
+### Projections
+
+<img src="jupyter/taxonomy/geospatial/projections.png" width="90%">
+
+.cite[https://altair-viz.github.io/gallery/world_projections.html]
+
+---
+
+## Geospatial data (2/2)
+
+### Choropleth
+
+<img src="jupyter/taxonomy/geospatial/choropleth.png" width="70%">
+
+.cite[https://altair-viz.github.io/gallery/choropleth.html]
 
 ---
 
