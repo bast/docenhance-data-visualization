@@ -1004,7 +1004,7 @@ class: center, middle, inverse
 
 - In .emph[publications] you have often only one column
 - Increase font size and ticks
-- Print the figure using the approximate size it will appear in
+- Print the figure using the approximate size it will appear in - is it still readable?
 ]
 
 ---
