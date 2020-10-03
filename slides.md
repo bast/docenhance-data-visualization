@@ -334,7 +334,13 @@ We will show .emph[typical examples] and discuss .emph[main pitfalls] for each:
 - Geospatial data
 - Trends and uncertainty
 
-.cite[Categorization following https://clauswilke.com/dataviz/directory-of-visualizations.html]
+.cite[Categorization somehow following https://clauswilke.com/dataviz/directory-of-visualizations.html]
+
+
+### The goal of doing this
+
+- So that we know what to search for
+- Source of inspiration
 
 ---
 
@@ -362,7 +368,10 @@ These can offer other categorizations:
 .right-column50[
 ### Scatterplot
 
-<img src="jupyter/taxonomy/x-y-relationships/scatter.png" width="90%">
+<img src="jupyter/taxonomy/x-y-relationships/scatter.png" width="70%">
+
+- Smooth lines can be used to represent trends
+
 .cite[https://seaborn.pydata.org/examples/multiple_regression.html]
 ]
 
@@ -380,8 +389,8 @@ These can offer other categorizations:
 .right-column50[
 ### Pitfalls
 
-- Overplotting
-- Too many colors
+- Overplotting -> bins or contours
+- Too many colors -> different plot type or labels
 ]
 
 ---
@@ -404,14 +413,16 @@ These can offer other categorizations:
 
 ---
 
-## Amounts (1/2)
+## Amounts (1/3)
 
 .left-column50[
 ### Bars
 
-<img src="jupyter/taxonomy/amounts/bars.png" width="40%">
+<img src="jupyter/taxonomy/amounts/bars.png" width="35%">
 
 - Mind the principle of .emph[proportional ink]
+- Bars need to start at zero
+- Instead of bars one can use dots
 
 .cite[https://altair-viz.github.io/gallery/simple_bar_chart.html]
 ]
@@ -419,32 +430,44 @@ These can offer other categorizations:
 .right-column50[
 ### Grouped bars
 
-<img src="jupyter/taxonomy/amounts/grouped-bars.png" width="80%">
+<img src="jupyter/taxonomy/amounts/grouped-bars.png" width="65%">
+
+- Bars can be horizontal or vertical
+- We can split them by facetting
 
 .cite[https://altair-viz.github.io/gallery/grouped_bar_chart.html]
 ]
 
 ---
 
-## Amounts (2/2)
+## Amounts (2/3)
 
 .left-column60[
 ### Stacked bars
 
-<img src="jupyter/taxonomy/amounts/stacked-bars.png" width="90%">
-
-- Only the yellow portion is easy to compare
+<img src="jupyter/taxonomy/amounts/stacked-bars.png" width="100%">
 
 .cite[https://altair-viz.github.io/gallery/horizontal_stacked_bar_chart.html]
 ]
 
 .right-column40[
+
+- Horizontal works well for longer labels
+- Arrange bars in a logical/intuitive order
+- Stacking is useful if the sum of amounts represents a meaningful amount
+- Only the yellow portion is easy to compare
+- Works very well if there are only two bars in each stack
+]
+
+---
+
+## Amounts (3/3)
+
 ### Heatmap
 
-<img src="jupyter/taxonomy/amounts/heatmap.png" width="80%">
+<img src="jupyter/taxonomy/amounts/heatmap.png" width="40%">
 
 .cite[https://altair-viz.github.io/gallery/simple_heatmap.html]
-]
 
 ---
 
@@ -455,8 +478,11 @@ These can offer other categorizations:
 
 <img src="jupyter/taxonomy/distributions/histogram.png" width="90%">
 
+- Always explore multiple bin widths
+
 .cite[https://seaborn.pydata.org/examples/faceted_histogram.html]
 ]
+
 
 .right-column50[
 ### Layered histogram
@@ -473,13 +499,19 @@ These can offer other categorizations:
 .left-column50[
 ### Stacked histogram
 
-<img src="jupyter/taxonomy/distributions/stacked-histogram.png" width="90%">
+<img src="jupyter/taxonomy/distributions/stacked-histogram.png" width="70%">
+
+- Difficult to interpret
+- Both histograms and density plots require arbitrary parameters choices
 ]
 
 .right-column50[
 ### Density plot
 
-<img src="jupyter/taxonomy/distributions/density-plot.png" width="90%">
+<img src="jupyter/taxonomy/distributions/density-plot.png" width="70%">
+
+- Works better than histograms to visuzalize several distributions at once
+- Check scaling and boundary conditions for density estimates
 ]
 
 ---
@@ -511,13 +543,18 @@ These can offer other categorizations:
 
 <img src="jupyter/taxonomy/proportions/pie.png" width="90%">
 
+- Space inefficient
+
 .cite[https://matplotlib.org/3.1.1/gallery/pie_and_polar_charts/pie_features.html]
 ]
+
 
 .right-column50[
 ### Stacked bar chart
 
 <img src="jupyter/taxonomy/proportions/stacked-bars.png" width="110%">
+
+- Contributions easier to compare in side-by-side bars
 
 .cite[https://altair-viz.github.io/gallery/normalized_stacked_bar_chart.html]
 ]
@@ -544,49 +581,57 @@ These can offer other categorizations:
 
 ---
 
-## Geospatial data (1/2)
+## Geospatial data (1/2): projections
 
-### Projections
+<img src="jupyter/taxonomy/geospatial/projections.png" width="80%">
 
-<img src="jupyter/taxonomy/geospatial/projections.png" width="90%">
+- Projection from 3D onto 2D introduces distortion
+- Projections can preserve either angles or areas but not both
 
 .cite[https://altair-viz.github.io/gallery/world_projections.html]
 
 ---
 
-## Geospatial data (2/2)
-
-### Choropleth
+## Geospatial data (2/2): Choropleth maps
 
 <img src="jupyter/taxonomy/geospatial/choropleth.png" width="70%">
+
+- Work best when coloring represents a density
+- Can be problematic when it represents a quantity which is not a density
 
 .cite[https://altair-viz.github.io/gallery/choropleth.html]
 
 ---
 
-## Trends and uncertainty (1/2)
+## Trends and uncertainty (1/4)
 
 .left-column50[
 ### Smoothing models
 
-<img src="jupyter/taxonomy/trends-uncertainty/loess.png" width="90%">
-
-- Polynomial fits, splines, LOESS, ...
+<img src="jupyter/taxonomy/trends-uncertainty/loess.png" width="100%">
 
 .cite[https://altair-viz.github.io/gallery/scatter_with_loess.html]
 ]
 
 .right-column50[
-### Confidence bands
-
-<img src="jupyter/taxonomy/trends-uncertainty/band.png" width="90%">
-
-.cite[https://altair-viz.github.io/gallery/line_with_ci.html]
+- Averaging, polynomial fits, splines, LOESS (locally estimated scatterplot smoothing), ...
+- Usually better to fit a line to transformed data than to fit a nonlinear
+  curve to untransformed data
 ]
 
 ---
 
-## Trends and uncertainty (2/2)
+## Trends and uncertainty (2/4)
+
+### Confidence bands
+
+<img src="jupyter/taxonomy/trends-uncertainty/band.png" width="50%">
+
+.cite[https://altair-viz.github.io/gallery/line_with_ci.html]
+
+---
+
+## Trends and uncertainty (3/4)
 
 .left-column50[
 ### Boxplots
@@ -602,6 +647,30 @@ These can offer other categorizations:
 <img src="jupyter/taxonomy/trends-uncertainty/error-bars.png" width="100%">
 
 .cite[https://seaborn.pydata.org/examples/pointplot_anova.html]
+]
+
+---
+
+## Trends and uncertainty (4/4)
+
+- Error bars can extend horizontally or vertically or both (2D error bars)
+- Graded error bars and confidence strips are also used
+
+.left-column50[
+### There is no commonly accepted standard for error bars
+
+- Always indicate what these mean: standard deviation? standard error of the
+  mean? 95% confidence interval? 95% credible interval?
+]
+
+.right-column50[
+### We remember this problem
+
+<img src="img/boxplot-problem.gif" width="100%">
+
+- Box plots invented when figures were still drawn by hand
+
+.cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
 ]
 
 ---
