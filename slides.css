@@ -32,10 +32,6 @@ li {
   line-height: 0.8em;
 }
 
-.background h1 {
-  color: #e8daef;
-}
-
 .left-column60 {
   width: 60%;
   float: left;
@@ -123,4 +119,44 @@ li {
 }
 .cite:after {
   content: "]";
+}
+
+.dark-background {
+  background-image: url(https://raw.githubusercontent.com/bast/data-visualization/master/img/background-dark.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.dark-background h1 {
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.dark-background h2 {
+  color: #ffffff;
+}
+
+.dark-background h3 {
+  color: #ffffff;
+}
+
+.light-background {
+  background-image: url(https://raw.githubusercontent.com/bast/data-visualization/master/img/background-light.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.light-background h1 {
+  font-size: 70px;
+  color: #404040;
+}
+
+.light-background h2 {
+  color: #909090;
+}
+
+.light-background h3 {
+  color: #909090;
 }

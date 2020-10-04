@@ -1,12 +1,9 @@
-class: center, middle
+class: dark-background
 
 # Data visualization
 
-Part of X
-
-## Author, Twitter
-
-Link to slides: ...
+### Radovan Bast
+### UiT The Arctic University of Norway
 
 ---
 
@@ -1130,3 +1127,17 @@ class: center, middle, inverse
 - Use these figures in your manuscript.
 
 - You can still use them outside (in your PhD thesis) since they are now licensed CC.
+
+---
+
+class: light-background, center, middle
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+# Data visualization
+
+### Radovan Bast, UiT The Arctic University of Norway
