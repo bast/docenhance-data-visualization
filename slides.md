@@ -608,7 +608,7 @@ These can offer other categorizations:
 
 <img src="jupyter/taxonomy/distributions/density-plot.png" width="70%">
 
-- Works better than histograms to visuzalize several distributions at once
+- Works better than histograms to visualize several distributions at once
 - Check scaling and boundary conditions for density estimates
 ]
 
@@ -811,7 +811,7 @@ class: center, middle, inverse
 
 ---
 
-## Visualization libraries (incomplete lits)
+## Visualization libraries (incomplete list)
 
 Two main families of libraries: procedural (e.g. Matplotlib) and declarative
 (using grammar of graphics).
@@ -1085,7 +1085,7 @@ class: center, middle, inverse
 
 - Each figure has a .emph[number] and a .emph[caption] that can be cross-referenced
 - Title is the first element of the caption
-- Axes and legnds need titles as well
+- Axes and legends need titles as well
 
 ---
 
