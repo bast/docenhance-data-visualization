@@ -6,3 +6,4 @@
 Slides:
 - [Introduction and motivation](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/docenhance-data-visualization/master/motivation.md/)
 - [Figure design, design process, and fundamentals](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/docenhance-data-visualization/master/design.md/)
+- [Data formats](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/docenhance-data-visualization/master/data-formats.md/)
