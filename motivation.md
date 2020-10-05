@@ -17,7 +17,7 @@ class: dark-background
 
 ### Our focus
 
-- Data visualization for .emph[academic publications and presentations]
+- Data visualization for .emph[publications and presentations] within and outside academia
 - .emph[Practical] recommendations
 - .emph[Reproducibility]
 - Know which tools exist -> .emph[good starting points]
