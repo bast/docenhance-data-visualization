@@ -162,9 +162,8 @@ studied; each will contribute to understanding."]
 
 <!-- mention which sections will be there and how long each -->
 
-### - Why visualizing data? (5 min)
 ### - Figure design, design process, and fundamentals (10 min)
-### - Taxonomy of visualizations (10 min)
+### - Gallery of visualizations (10 min)
 ### - Choosing the right tools (5 min)
 ### - Reproducible and reusable plots (10 min)
 ### - Data formats (10 min)

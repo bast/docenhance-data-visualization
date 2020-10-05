@@ -2,20 +2,14 @@ class: dark-background
 
 # Data visualization
 
+## Gallery of visualizations
+
 ### Radovan Bast
 ### UiT The Arctic University of Norway
 
 ---
 
-class: center, middle, inverse
-
-# Taxonomy of visualizations
-
-<!-- 10 min -->
-
----
-
-## Taxonomy of visualizations
+## Gallery of visualizations
 
 We will show .emph[typical examples] and discuss .emph[main pitfalls] for each:
 
@@ -53,14 +47,14 @@ These can offer other categorizations:
 .left-column50[
 ### Line graph
 
-<img src="jupyter/taxonomy/x-y-relationships/lineplot.png" width="90%">
+<img src="jupyter/gallery/x-y-relationships/lineplot.png" width="90%">
 .cite[https://seaborn.pydata.org/examples/wide_data_lineplot.html]
 ]
 
 .right-column50[
 ### Scatterplot
 
-<img src="jupyter/taxonomy/x-y-relationships/scatter.png" width="70%">
+<img src="jupyter/gallery/x-y-relationships/scatter.png" width="70%">
 
 - Smooth lines can be used to represent trends
 
@@ -74,7 +68,7 @@ These can offer other categorizations:
 .left-column50[
 ### Bubble plot
 
-<img src="jupyter/taxonomy/x-y-relationships/bubbles.png" width="90%">
+<img src="jupyter/gallery/x-y-relationships/bubbles.png" width="90%">
 .cite[https://seaborn.pydata.org/examples/scatter_bubbles.html]
 ]
 
@@ -92,14 +86,14 @@ These can offer other categorizations:
 .left-column50[
 ### Bins
 
-<img src="jupyter/taxonomy/x-y-relationships/bins.png" width="70%">
+<img src="jupyter/gallery/x-y-relationships/bins.png" width="70%">
 .cite[https://seaborn.pydata.org/examples/hexbin_marginals.html]
 ]
 
 .right-column50[
 ### Contours
 
-<img src="jupyter/taxonomy/x-y-relationships/contours.png" width="70%">
+<img src="jupyter/gallery/x-y-relationships/contours.png" width="70%">
 .cite[https://seaborn.pydata.org/examples/multiple_bivariate_kde.html]
 ]
 
@@ -110,7 +104,7 @@ These can offer other categorizations:
 .left-column50[
 ### Bars
 
-<img src="jupyter/taxonomy/amounts/bars.png" width="35%">
+<img src="jupyter/gallery/amounts/bars.png" width="35%">
 
 - Mind the principle of .emph[proportional ink]
 - Bars need to start at zero
@@ -122,7 +116,7 @@ These can offer other categorizations:
 .right-column50[
 ### Grouped bars
 
-<img src="jupyter/taxonomy/amounts/grouped-bars.png" width="65%">
+<img src="jupyter/gallery/amounts/grouped-bars.png" width="65%">
 
 - Bars can be horizontal or vertical
 - We can split them by facetting
@@ -137,7 +131,7 @@ These can offer other categorizations:
 .left-column60[
 ### Stacked bars
 
-<img src="jupyter/taxonomy/amounts/stacked-bars.png" width="100%">
+<img src="jupyter/gallery/amounts/stacked-bars.png" width="100%">
 
 .cite[https://altair-viz.github.io/gallery/horizontal_stacked_bar_chart.html]
 ]
@@ -157,7 +151,7 @@ These can offer other categorizations:
 
 ### Heatmap
 
-<img src="jupyter/taxonomy/amounts/heatmap.png" width="40%">
+<img src="jupyter/gallery/amounts/heatmap.png" width="40%">
 
 .cite[https://altair-viz.github.io/gallery/simple_heatmap.html]
 
@@ -168,7 +162,7 @@ These can offer other categorizations:
 .left-column50[
 ### (Faceted) histogram
 
-<img src="jupyter/taxonomy/distributions/histogram.png" width="90%">
+<img src="jupyter/gallery/distributions/histogram.png" width="90%">
 
 - Always explore multiple bin widths
 
@@ -179,7 +173,7 @@ These can offer other categorizations:
 .right-column50[
 ### Layered histogram
 
-<img src="jupyter/taxonomy/distributions/layered-histogram.png" width="90%">
+<img src="jupyter/gallery/distributions/layered-histogram.png" width="90%">
 
 .cite[https://altair-viz.github.io/gallery/layered_histogram.html]
 ]
@@ -191,7 +185,7 @@ These can offer other categorizations:
 .left-column50[
 ### Stacked histogram
 
-<img src="jupyter/taxonomy/distributions/stacked-histogram.png" width="70%">
+<img src="jupyter/gallery/distributions/stacked-histogram.png" width="70%">
 
 - Difficult to interpret
 - Both histograms and density plots require arbitrary parameters choices
@@ -200,7 +194,7 @@ These can offer other categorizations:
 .right-column50[
 ### Density plot
 
-<img src="jupyter/taxonomy/distributions/density-plot.png" width="70%">
+<img src="jupyter/gallery/distributions/density-plot.png" width="70%">
 
 - Works better than histograms to visualize several distributions at once
 - Check scaling and boundary conditions for density estimates
@@ -212,7 +206,7 @@ These can offer other categorizations:
 
 ### Ridgeline plot
 
-<img src="jupyter/taxonomy/distributions/ridgeline.png" width="60%">
+<img src="jupyter/gallery/distributions/ridgeline.png" width="60%">
 
 .cite[https://altair-viz.github.io/gallery/ridgeline_plot.html]
 
@@ -233,7 +227,7 @@ These can offer other categorizations:
 .left-column50[
 ### Pie chart
 
-<img src="jupyter/taxonomy/proportions/pie.png" width="90%">
+<img src="jupyter/gallery/proportions/pie.png" width="90%">
 
 - Space inefficient
 
@@ -244,7 +238,7 @@ These can offer other categorizations:
 .right-column50[
 ### Stacked bar chart
 
-<img src="jupyter/taxonomy/proportions/stacked-bars.png" width="110%">
+<img src="jupyter/gallery/proportions/stacked-bars.png" width="110%">
 
 - Contributions easier to compare in side-by-side bars
 
@@ -258,7 +252,7 @@ These can offer other categorizations:
 .left-column50[
 ### Stacked areas/densities
 
-<img src="jupyter/taxonomy/proportions/stacked-areas.png" width="90%">
+<img src="jupyter/gallery/proportions/stacked-areas.png" width="90%">
 
 .cite[https://altair-viz.github.io/gallery/normalized_stacked_area_chart.html]
 ]
@@ -275,7 +269,7 @@ These can offer other categorizations:
 
 ## Geospatial data (1/2): projections
 
-<img src="jupyter/taxonomy/geospatial/projections.png" width="80%">
+<img src="jupyter/gallery/geospatial/projections.png" width="80%">
 
 - Projection from 3D onto 2D introduces distortion
 - Projections can preserve either angles or areas but not both
@@ -286,7 +280,7 @@ These can offer other categorizations:
 
 ## Geospatial data (2/2): Choropleth maps
 
-<img src="jupyter/taxonomy/geospatial/choropleth.png" width="70%">
+<img src="jupyter/gallery/geospatial/choropleth.png" width="70%">
 
 - Work best when coloring represents a density
 - Can be problematic when it represents a quantity which is not a density
@@ -300,7 +294,7 @@ These can offer other categorizations:
 .left-column50[
 ### Smoothing models
 
-<img src="jupyter/taxonomy/trends-uncertainty/loess.png" width="100%">
+<img src="jupyter/gallery/trends-uncertainty/loess.png" width="100%">
 
 .cite[https://altair-viz.github.io/gallery/scatter_with_loess.html]
 ]
@@ -317,7 +311,7 @@ These can offer other categorizations:
 
 ### Confidence bands
 
-<img src="jupyter/taxonomy/trends-uncertainty/band.png" width="50%">
+<img src="jupyter/gallery/trends-uncertainty/band.png" width="50%">
 
 .cite[https://altair-viz.github.io/gallery/line_with_ci.html]
 
@@ -328,7 +322,7 @@ These can offer other categorizations:
 .left-column50[
 ### Boxplots
 
-<img src="jupyter/taxonomy/trends-uncertainty/boxes.png" width="90%">
+<img src="jupyter/gallery/trends-uncertainty/boxes.png" width="90%">
 
 .cite[https://seaborn.pydata.org/examples/grouped_boxplot.html]
 ]
@@ -336,7 +330,7 @@ These can offer other categorizations:
 .right-column50[
 ### Error bars
 
-<img src="jupyter/taxonomy/trends-uncertainty/error-bars.png" width="100%">
+<img src="jupyter/gallery/trends-uncertainty/error-bars.png" width="100%">
 
 .cite[https://seaborn.pydata.org/examples/pointplot_anova.html]
 ]
