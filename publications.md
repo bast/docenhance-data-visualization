@@ -55,7 +55,7 @@ class: dark-background
 
 ### The problem
 
-- When you publish a manuscript, the copyright (including) is typically
+- When you publish a manuscript, the copyright (including figures) is typically
   transferred to the publisher.
 
 - Then if you want to use the figures that you created later, in principle you
