@@ -76,7 +76,9 @@ Data visualization is a
 
 - Reliable: Proportional ink
 - Usable: Avoid 3D plots (unless it's 3D object)
-- Elegant: maximize the data/ink ratio, within reason
+- Elegant: "Maximize the data/ink ratio, within reason"
+
+.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
 
 ---
 
