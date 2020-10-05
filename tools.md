@@ -21,7 +21,7 @@ class: dark-background
 - This will bite you when you need to regenerate
   50 figures one day before submission deadline or regenerate a set of figures
   after the person who created them left the group.
-- Use software that can be scripted: (batch processing and reproducibility; more about that in next section)
+- Use software that can be scripted: batch processing and reproducibility (more about that in next section).
 
 ---
 
