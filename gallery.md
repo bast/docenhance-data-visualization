@@ -37,7 +37,7 @@ These can offer other categorizations:
 - https://clauswilke.com/dataviz/directory-of-visualizations.html
 - https://datavizcatalogue.com/search.html
 - https://depictdatastudio.com/charts/
-- https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
+- https://github.com/ft-interactive/chart-doctor/tree/main/visual-vocabulary
 - https://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 
 ---
